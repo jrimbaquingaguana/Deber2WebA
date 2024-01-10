@@ -22,21 +22,39 @@
   .section {
     padding: 10px;
     margin: 5px;
+    font-size: 16px; /* Tamaño de fuente más pequeño */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 8px;
+    box-shadow: none; /* Sin sombra */
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
   .section {
-    padding: 15px;
-    margin: 10px;
+    padding: 20px; /* Mayor relleno */
+    margin: 15px; /* Mayor margen */
     font-family: 'Pacifico', cursive;
+    border-radius: 25px;
+    font-size: 35px;
+    background-color: #FFD700; /* Fondo amarillo para mayor contraste */
+    color: #333; /* Texto oscuro para mayor legibilidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar la sección */
   }
 }
+
 @media screen and (min-width: 801px) and (max-width: 1024px) {
   .section {
-    padding: 20px;
-    margin: 15px;
+    padding: 25px; /* Aumentado el relleno */
+    margin: 20px; /* Aumentado el margen */
     font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    background-color: #7FFFD4; /* Fondo turquesa */
+    color: #5a3737; /* Texto blanco para mayor contraste */
+    border: 2px solid #2ecc71; /* Borde verde */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 128, 0, 0.5); /* Sombra verde */
   }
 }
 
@@ -45,20 +63,26 @@
     padding: 30px;
     margin: 25px;
     font-family: 'Abril Fatface', cursive;
+    border-radius: 100px;
+    background-color: #FF6347; /* Fondo rojo */
+    color: #260909; /* Texto blanco para mayor contraste */
+    border: 3px solid #e74c3c; /* Borde rojo más grueso */
+    box-shadow: 0 0 20px rgba(255, 99, 71, 0.5); /* Sombra roja */
   }
 }
 
-button {
-  padding: 10px;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #2980b9;
-}
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+    
