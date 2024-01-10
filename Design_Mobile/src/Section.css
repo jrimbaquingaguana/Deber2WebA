@@ -29,12 +29,14 @@
   .section {
     padding: 15px;
     margin: 10px;
+    font-family: 'Pacifico', cursive;
   }
 }
 @media screen and (min-width: 801px) and (max-width: 1024px) {
   .section {
     padding: 20px;
     margin: 15px;
+    font-family: 'Cutive Mono', monospace;
   }
 }
 
@@ -42,6 +44,7 @@
   .section {
     padding: 30px;
     margin: 25px;
+    font-family: 'Abril Fatface', cursive;
   }
 }
 
